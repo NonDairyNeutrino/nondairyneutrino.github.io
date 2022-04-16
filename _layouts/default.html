@@ -14,15 +14,18 @@
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
   <body>
       <div id="header">
         <nav>
           <ul>
-            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-            <li class="fork"><a href="https://nondairyneutrino.github.io/about">About</a></li>
+            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li> &emsp
+            <li class="fork"><a href="https://nondairyneutrino.github.io">Home</a></li> &emsp
+            <li class="fork"><a href="https://nondairyneutrino.github.io/about">About</a></li> &emsp
+            <li class="fork"><a href="https://nondairyneutrino.github.io/mathematica_for_the_busy">Mathematica for the busy</a></li> &emsp
+            <li class="fork"><a href="https://nondairyneutrino.github.io/latex_for_the_busy">LaTeX for the busy</a></li>
             {% if site.show_downloads %}
               <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
               <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
@@ -38,7 +41,7 @@
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
+          <!-- <hr> -->
           <!-- <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span> -->
         </div>
 
