@@ -1,9 +1,8 @@
 ---
 ---
 
-body {
-  padding: 0;
-  margin: 0;
-}
-
 @import "{{ site.theme }}";
+
+.inner {
+  max-width: 100%;
+}
