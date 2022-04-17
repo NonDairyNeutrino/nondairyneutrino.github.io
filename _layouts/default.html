@@ -16,14 +16,25 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-      .footer {
+      .rightfooter {
          position: fixed;
-         left: 0;
+         left: 100%;
          bottom: 0;
-         width: 100%;
+         width: 50%;
          background-color: none;
          color: white;
          text-align: right;
+      }
+    </style>
+    <style>
+      .leftfooter {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 50%;
+         background-color: none;
+         color: white;
+         text-align: left;
       }
     </style>
     {% include head-custom.html %}
@@ -32,8 +43,6 @@
       <div id="header">
         <nav>
           <ul>
-            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-            <div class="horizontalgap" style="width:48px"></div>
             <li class="fork"><a href="https://nondairyneutrino.github.io">Home</a></li>
             <div class="horizontalgap" style="width:48px"></div>
             <li class="fork"><a href="https://nondairyneutrino.github.io/about">About</a></li>
@@ -70,7 +79,11 @@
 
     </div>
 
-    <div class="footer">
+    <div class="leftfooter">
+      <class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+    </div>
+    
+    <div class="rightfooter">
       <span class="credits right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
     </div>
   </body>
