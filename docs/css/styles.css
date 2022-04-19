@@ -471,7 +471,8 @@ output {
 }
 
 iframe {
-  border: 0;
+  border: 12px;
+  display: block;
 }
 
 summary {
