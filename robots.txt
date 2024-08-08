@@ -1,0 +1,4 @@
+Sitemap: nathanwchapman.com/sitemap.xml
+
+User-agent: *
+Disallow:
