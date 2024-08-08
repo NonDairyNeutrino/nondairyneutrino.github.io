@@ -6,6 +6,7 @@ rss_title = "Art & Stuff"
 rss_pubdate = Date(2024, 8, 8)
 
 tags = ["syntax", "code", "image"]
+mintoclevel = 2
 +++
 
 # Creative Coding
