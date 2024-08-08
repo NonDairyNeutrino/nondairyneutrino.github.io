@@ -1,26 +1,20 @@
-@def title = "Nathan Chapman: Teaching"
+@def title = "Teaching"
 @def tags = ["syntax", "code"]
+
+\toc
 
 # Physics
 
-  During my career, I've taught introductory physics at a variety of levels.
+During my career, I've taught physics at a variety of levels.  The number of times I have taught a course is highlighted in parentheses after course title.
 
-  ## Physics Inquiry
-
-  During the fall of 2023 I taught my first course, not only in physics, but ever!  The main objective of the course was to introduce the very basic concepts of physics to students with very little mathematical background.  I took this opporutunity to take the name of the course to heart.  Over the course of the 10 weeks, I developed curriculum to highlight the different fields of physics through the different steps of the scientific method.
-
-  ## Introductory Physics with Calculus II
-
-  I've had the chance to teach the second course of in an introductory physics with calculus sequence twice.  This course in particular covered:
-
-  - Work, Kinetic Energy, and the Work-Kinetic Energy theorem 
-  - Rotational dynamics: Center of mass, torque, etc.
-  - Oscillations
-  - Newtonian Gravity
-
-  ## Physics for Life Science III
-
-  Algebra based electricity and magnetism in the context of biological sciences such as in marine life and human physiology.
+## Qualitative
+- Physics 106: Physics Inquiry (1)
+## Algebra-Based
+- Physics 123: Physics for Life Science III (1)
+## Calculus-Based
+- Physics 182: Introductory Physics with Calculus (2)
+## Upper-Level
+I would especially love to teach advanced courses on Relativity and Computational Physics.
 
 # Computer Science - Coming Soon!
 
