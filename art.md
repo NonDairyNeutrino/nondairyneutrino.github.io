@@ -6,6 +6,7 @@ rss_title = "Art & Stuff"
 rss_pubdate = Date(2024, 8, 8)
 
 tags = ["syntax", "code", "image"]
+mintoclevel = 2
 +++
 
 # Creative Coding
@@ -28,5 +29,5 @@ Most of my work in creaing visualling appealing and/or interesting content throu
 
 ![](/assets/art/Lissajous_no_lines.gif)
 
-## Beautiful Chaos & The Double Pendulum
+## Psuedo-resonant Chaos & The Double Pendulum
 
