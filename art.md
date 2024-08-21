@@ -29,5 +29,5 @@ Most of my work in creaing visualling appealing and/or interesting content throu
 
 ![](/assets/art/Lissajous_no_lines.gif)
 
-## Beautiful Chaos & The Double Pendulum
+## Psuedo-resonant Chaos & The Double Pendulum
 
